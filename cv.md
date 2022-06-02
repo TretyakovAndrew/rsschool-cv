@@ -20,7 +20,7 @@ I want to learn Front-End development in RSSchool.
 - Windows, Linux (Ubuntu)
 - Figma
 - Python (basic knowledge)
-- SQL (Basic knowledge)
+- SQL (basic knowledge)
 - Editors: VS Code, WebStorm, PyCharm
 ---
 ### Code Example:  
