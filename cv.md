@@ -39,3 +39,11 @@ function whoseBicycle(diary1, diary2, diary3) {
 }
 ```
 ---
+### Courses:
+- HTML, CSS on [htmlbook.ru](http://htmlbook.ru)
+- JavaScript on [learnjavascript.ru](https://learn.javascript.ru/)
+- Python, Beegeek School
+---
+### Languages:
+- English (A2)
+- Russian
