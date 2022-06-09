@@ -300,3 +300,28 @@ progress {
 }
 /* right container end*/
 /* -----main end----- */
+
+/* -----footer start----- */
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 40px;
+    background-color: #373737;
+}
+
+.git-logo {
+    width: 64px;
+    height: 64px;
+}
+
+.footer-container span {
+    font-size: 28px;
+    color: #9f9fa2;
+}
+
+.rs-logo {
+    width: 120px;
+    height: 90px;
+}
+/* -----footer end----- */
