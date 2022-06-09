@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,213 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <title>Andrei Tretyakov CV</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-container">
+                <div class="hero">
+                    <div class="photo">
+                        <img src="assets/img/main.jpg" alt="Author's photo">
+                    </div>
+                    <div>
+                        <h1>Andrei Tretyakov</h1>
+                        <h2>Junior Frontend Developer</h2>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#about">About Myself</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#code">Code Example</a></li>
+                        <li><a href="#course">Courses</a></li>
+                        <li><a href="#language">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="main-container">
+                <div class="left-container">
+                    <section class="contacts">
+                        <div class="contacts-container">
+                            <h2 id="contact">Contacts</h2>
+                            <ul class="contacts-list">
+                                <li>
+                                    <a href="https://www.google.com/maps/d/u/0/viewer?ie=UTF8&oe=UTF8&msa=0&mid=12BhrpS0z-MFDQzPWHiYrUYc5baY&ll=53.789440534064276%2C27.622800680547446&z=10" target="_blank">
+                                        <div class="contact-item">
+                                            <i class="fa-solid fa-location-pin"></i><span>Belarus, Minsk</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+78121234567">
+                                        <div class="contact-item">
+                                            <i class="fa-solid fa-mobile-screen-button"></i><span>(812) 1234567</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:drobservis@gmail.com">
+                                        <div class="contact-item">
+                                            <i class="fa-solid fa-at"></i><span>drobservis@gmail.com</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/TretyakovAndrew">
+                                        <div class="contact-item">
+                                            <i class="fa-brands fa-github"></i><span>@TretyakovAndrew</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tg://resolve?domain=Andreitret">
+                                        <div class="contact-item">
+                                            <i class="fa-brands fa-telegram"></i><span>Telegram</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="skills">
+                        <div class="skills-container">
+                            <h2 id="skill">Skills</h2>
+                            <ul class="skills-list">
+                                <li>
+                                    <label for="html-css">HTML, CSS</label><br>
+                                    <progress id="html-css" max="100" value="35">
+                                    </progress>
+                                </li>
+                                <li>
+                                    <label for="javascript">JavaScript</label><br>
+                                    <progress id="javascript" max="100" value="30">
+                                    </progress>
+                                </li>
+                                <li>
+                                    <label for="git">Version control: Git</label><br>
+                                    <progress id="git" max="100" value="40">
+                                    </progress>
+                                </li>
+                                <li>
+                                    <label for="os">Windows, Linux (Ubuntu)</label><br>
+                                    <progress id="os" max="100" value="70">
+                                    </progress>
+                                </li>
+                                <li>
+                                    <label for="figma">Figma</label><br>
+                                    <progress id="figma" max="100" value="45">
+                                    </progress>
+                                </li>
+                                <li>
+                                    <label for="python">Python (basic knowledge)</label><br>
+                                    <progress id="python" max="100" value="55">
+                                    </progress>
+                                </li>
+                                <li>
+                                    <label for="sql">SQL (basic knowledge)</label><br>
+                                    <progress id="sql" max="100" value="35">
+                                    </progress>
+                                </li>
+                                <li>
+                                    <label for="editors">Editors: VS Code, WebStorm, PyCharm</label><br>
+                                    <progress id="editors" max="100" value="65">
+                                    </progress>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="right-container">
+                    <section class="about-me">
+                        <div class="section-container aboute-me-container">
+                            <h2 id="about">About Myself</h2>
+                            <div class="section-content">
+                                I want to change profession and become a Full-stack Developer. 
+                                I decided to start with FronEnd. Actually, that's why I'm here ;)
+                            </div>
+                        </div>
+                    </section>
+                    <section class="education">
+                        <div class="section-container education-container">
+                            <h2 id="edu">Education</h2>
+                            <div class="section-content">
+                                <h3>Bachelor of Economics</h3>
+                                2009 - 2014, Private institute of management and bussines
+                            </div>
+                        </div>
+                    </section>
+                    <section class="code-example">
+                        <div class="section-container code-example-container">
+                            <h2 id="code">Code example</h2>
+                            <div class="section-content">
+                                <code class="code-text" data-language="javascript">
+                                            function whoseBicycle(diary1, diary2, diary3) {<br>
+                                                &emsp;&emsp;let commonArray = [Object.values(diary1), Object.values(diary2), Object.values(diary3)];<br>
+                                                &emsp;&emsp;let eachSonTotal = commonArray.map(total => total.reduce(<br>
+                                                &emsp;&emsp;&emsp;&emsp;(previousValue, currentValue) => previousValue + currentValue,<br>
+                                                &emsp;&emsp;&emsp;&emsp;0<br>
+                                                &emsp;&emsp;));<br>
+                                                &emsp;&emsp;let bestIndex= eachSonTotal.lastIndexOf(Math.max(...eachSonTotal));<br>
+                                                <br>
+                                                &emsp;&emsp;return `I need to buy a bicycle for my ${bestIndex===0?'first':bestIndex===1?'second':'third'} son.`<br>
+                                            }                                    
+                                        </code>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="projects">
+                        <div class="section-container projects-container">
+                            <h2 id="project">Projects</h2>
+                            <div class="section-content">
+                                <ul class="project-list">
+                                    <li>
+                                        <a href="https://TretyakovAndrew.github.io/rsschool-cv/" target="_blank">
+                                            <div class="project-item">
+                                                <img class="img-project" src="assets/img/cv_task.jpg" alt="Project CV">
+                                                <span class="project-title">CV</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>Will be updated...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="courses">
+                        <div class="section-container courses-container">
+                            <h2 id="course">Courses</h2>
+                            <div class="section-content">
+                                <ul class="courses-list">
+                                    <li>HTML, CSS on htmlbook.ru</li>
+                                    <li>JavaScript on learnjavascript.ru</li>
+                                    <li>Crash Course on Python, Coursera</li>
+                                    <li>Python, (Stepik) Beegeek School</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="languages">
+                        <div class="section-container languages-container">
+                            <h2 id="language">Languages</h2>
+                            <div class="section-content">
+                                <ul class="languages-list">
+                                    <li>English A2</li>
+                                    <li>Russian</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
